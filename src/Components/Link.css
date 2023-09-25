@@ -51,18 +51,7 @@
 }
 
 
-/* .button__icon{
-    background-image: url(../../Icons/hamburger-menu.svg);
-    transition: background-image 0.1s linear;
-    background-size: contain;
-    
-}
-.button__icon2{
-    background-image: url(../../Icons/cross.svg);
-    background-size: contain;
-    transition: background-image 0.1s linear;
 
-} */
 
 @media only screen and (min-width:350px) and (max-width:550px){
     .link__main{
