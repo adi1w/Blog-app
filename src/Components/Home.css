@@ -192,4 +192,40 @@
     .LA{
         width: 97vw;
     }
-}
+
+    @media only screen  and (min-width:1120px) and (max-height:820px){
+
+        .Home{
+            flex-direction: column;
+            width: 99vw;
+            align-items: center;
+           
+        }
+
+        .twoImages{
+            display: flex;
+            flex-direction: column;
+           }
+           .img1{
+              width: 41vw;
+              height: 22vw;
+        
+        }
+        .img2{
+            width: 200px;
+            
+        } */
+        .randomComponents{
+            display: flex;
+            flex-direction: column;
+            width: 5vw;
+            margin-bottom: 60px;
+        }
+        .random__images{
+            width: 193vw;
+            height: 125vh;
+            margin-top: 17px;
+        }
+    }
+        
+    }

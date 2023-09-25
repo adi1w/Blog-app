@@ -39,8 +39,8 @@ const Home = ()=>{
             <div className="randomContent">
             <RandomComponent/>
             <RandomComponent/>
-            <RandomComponent/>
-            <RandomComponent/>
+             <RandomComponent/>
+            <RandomComponent/> 
             </div>
 
             <div className="LA">
