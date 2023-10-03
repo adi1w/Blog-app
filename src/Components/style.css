@@ -21,7 +21,7 @@
     width: 43vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+   
     
     
 }
@@ -256,52 +256,201 @@
         
         width: 30vw;
     }
-
 }
 
 
-    @media only screen and (min-width: 1120px) and (max-height:820px){
-        .TS__images{
-            width: 320px;
-            height: 290px;
-            right: 24px;
-            position: relative;
-        }
-        .TP__description{
-            position: relative;
-            font-size: 26px;
-            right:22px;
-        }
-        .TP__title{
-            font-size: 20px;
-            position: relative;
+    @media only screen and (min-width:541px) and (max-width:825px){
+        
 
+        .heading{
+            text-decoration: none;
+            color: black;
+           
+            border: 2px solid maroon;
+        }
+
+        .TS__images{
+            width: 22vw;
+            height: 180px;
+            border-radius: 10px;
+        
         }
         .topStories{
+            width: 92vw;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-family: 'Open Sans', sans-serif;
+            
+            
+        }
+        .topStories__left{
+            width: 43vw;
+            display: flex;
             flex-direction: column;
-            width: 99vw;
-            align-items: center;
+            border: 2px solid black;
+           
             
         }
         .topStories__right{
-            width: 95vw;
-            position: relative;
-            left: 125px;
+            width: 25vw;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            line-height: 25px;
+            ;
         }
-    
-        .TS__description left__Desc{
-            font-size: 37px;
-
+        .TS__Elements{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            margin: 25px 0px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid gainsboro;
+            
+            
         }
-        .TP__title{
+        .TS__headAndDDescpr{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+            align-items: flex-start;
+            width: 18vw;
             position: relative;
-            left: 29px;
-            font-size: 22px
+            top: -34px;
+            
+            border: 2px solid darkred;
+            
+            
+        } 
+        
+        .TS__description{
+            font-size: 16px;
+            line-height: 22px;
+            color: gray;
+            
+            margin-bottom: 20px;
+        }
+        .TP__Elements{
+            width: 23vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 25px 0px;
+            padding-bottom: 40px;
+            border-bottom: 3px solid gainsboro;
+            
+        }
+        .TPTitle{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .TP__first{
+            width: 23vw;
+            
+            border-bottom: 3px solid gainsboro;
         }
         .TP__images{
             width: 80px;
+            height: 80px;
+            border-radius: 10px;
+        
+        }
+        .TP__firstImage{
+            width: 23vw;
+            height: 230px;
+            border-radius: 10px;
+        
         }
         
+        .TP__description{
+            width: 15vw;
+            height: 70px;
+            justify-content:flex-start ;
+            display: flex;
+           
+            
+            
+        }
+        .TP__firstDescription{
+            width: 23vw;
+            height: 100px;
+            align-items: center;
+            justify-content:space-between;
+            display: flex;
+            
+        }
+        .TP__title{
+            width: 13vw;
+            font-size: 18px;
+        }
+        
+        .TP__firstTitle{
+            width: 20vw;
+            font-size: 20px;
+        }
+        .TP__numbers{
+            font-size: 60px;
+            
+            color: silver;
+        }
+        .TP__FirstNumber{
+            font-size: 60px;
+            color: silver;
+        }
+        .advertisement{
+            width: 23vw;
+            height: 70vh;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .advertisement > img{
+            width: 23vw;
+            height:70vh
+        }
+        .content__title{
+            position: relative;
+            padding-bottom: 5px;
+            font-family: 'Montserrat', sans-serif;
+            
+        
+        }
+        .content__title::before{
+            content: "";
+            width: 6vw;
+            position: absolute;
+            top: 5.5vh;
+            border-bottom: 4px solid #F08080;
+            border-radius: 2px;
+        }
+        .topPost{
+            margin-bottom: 60px;
+        }
+        .loadMore{
+            display: none;
+        }
+        .compfoot{
+            color: #404040;
+            font-size: .9em;
+            font-weight: bold;
+        }
+        
+        .load > h3{
+            margin: 0px 0px 10px;
+            font-size: 20px;
+            border-left: #F08080 4px solid;
+            border-right: #F08080 4px solid;
+            padding: 0px 10px;
+            width: 7.5vw;
+            cursor: pointer;
+        }
+    
+    }
 
-       
-}
+
+
+
+   

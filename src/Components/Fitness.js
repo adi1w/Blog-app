@@ -30,8 +30,8 @@ const Fitness = ()=>{
                             <div key={e.id} className="TS__Elements">
                                <NavLink state={{id:e.id , title: e.title}} to={"/content" }> <img className="TS__images" src={e.image} alt={e.title}/></NavLink>
                                 <div className="TS__headAndDDescpr">
-                                <NavLink className="heading" state={{id:e.id , title: e.title}} to={"/content"}> <h2 >  {e.title}</h2> </NavLink>
-                                <div className="TS__description">{e.description}</div>
+                                <NavLink className="heading" state={{id:e.id , title: e.title}} to={"/content"}> <h2 >  {e.title.slice(0,20)}</h2> </NavLink>
+                                <div className="TS__description">{e.description.slice(0,70)}</div>
 
                                 <div className="compfoot">{e.cat} <span style={{color:'gray'}}></span></div>
                                 </div>
@@ -47,8 +47,8 @@ const Fitness = ()=>{
                             <div key={e.id} className={loadMore ? "TS__Elements " : "TS__Elements loadMore"}>
                                <NavLink state={{id:e.id , title: e.title}} to={"/content" }> <img className="TS__images" src={e.image} alt={e.title}/></NavLink>
                                 <div className="TS__headAndDDescpr">
-                                <NavLink className="heading" state={{id:e.id , title: e.title}} to={"/content"}> <h2 >  {e.title}</h2> </NavLink>
-                                <div className="TS__description">{e.description}</div>
+                                <NavLink className="heading" state={{id:e.id , title: e.title}} to={"/content"}> <h2 >  {e.title.slice(0,20)}</h2> </NavLink>
+                                <div className="TS__description">{e.description.slice(0,70)}</div>
 
                                 <div className="compfoot">{e.cat} <span style={{color:'gray'}}></span></div>
                                 </div>
