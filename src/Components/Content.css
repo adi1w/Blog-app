@@ -226,7 +226,7 @@ h5{
 
 
 
-@media only screen and (min-width:390px) and (max-width:845px){
+@media only screen and (min-width:390px) and (max-width:540px){
     .contentHeader{
     width: 99vw;
     position: sticky;
@@ -308,7 +308,7 @@ h5{
 
 
 
-@media only screen and (min-width:820px) and (max-width:1180px){
+@media only screen and (min-width:520px) and (max-width:1024px){
     
     .content{
         display: flex;

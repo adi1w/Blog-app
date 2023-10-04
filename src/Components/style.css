@@ -259,22 +259,24 @@
 }
 
 
-    @media only screen and (min-width:541px) and (max-width:825px){
+    @media only screen and (min-width: 520px) and (max-width: 1024px){
         
 
         .heading{
             text-decoration: none;
             color: black;
-           
-            border: 2px solid maroon;
+        
         }
 
         .TS__images{
-            width: 22vw;
-            height: 180px;
-            border-radius: 10px;
+            width: 39vw;
+    height: 245px;
+    border-radius: 10px;
+    position: relative;
+    left: 33px;
+}
         
-        }
+        
         .topStories{
             width: 92vw;
             display: flex;
@@ -286,44 +288,44 @@
         }
         .topStories__left{
             width: 43vw;
-            display: flex;
+            display: grid;
             flex-direction: column;
-            border: 2px solid black;
+            
            
             
         }
         .topStories__right{
             width: 25vw;
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            flex-direction: row;
             font-family: 'Open Sans', sans-serif;
             font-weight: bold;
+            flex-wrap: wrap;
             line-height: 25px;
-            ;
+            
         }
         .TS__Elements{
             display: flex;
-            justify-content: space-around;
-            align-items: flex-start;
-            margin: 25px 0px;
-            padding-bottom: 20px;
-            border-bottom: 3px solid gainsboro;
-            
-            
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 30px 0px;
+    padding-bottom: 18px;
+   
+
+
         }
         .TS__headAndDDescpr{
             display: flex;
             flex-direction: column;
             /* justify-content: space-between; */
             align-items: flex-start;
-            width: 18vw;
+            width: 37vw;
             position: relative;
-            top: -34px;
-            
-            border: 2px solid darkred;
-            
-            
-        } 
+            top: 23px;
+            left: 60px;
+    
+        }
+        
         
         .TS__description{
             font-size: 16px;
@@ -354,17 +356,21 @@
             border-bottom: 3px solid gainsboro;
         }
         .TP__images{
-            width: 80px;
-            height: 80px;
+            width: 579px;
+            height: 347px;
+            position: relative;
             border-radius: 10px;
+            left: 68px;
         
         }
         .TP__firstImage{
-            width: 23vw;
-            height: 230px;
+            width: 76vw;
+            height: 333px;
             border-radius: 10px;
-        
+            position: relative;
+            left: 50px;
         }
+        
         
         .TP__description{
             width: 15vw;
@@ -389,23 +395,27 @@
         }
         
         .TP__firstTitle{
-            width: 20vw;
+            width: 28vw;
             font-size: 20px;
         }
         .TP__numbers{
             font-size: 60px;
-            
+            position: relative;
+            left: 60vw;
             color: silver;
         }
         .TP__FirstNumber{
-            font-size: 60px;
-            color: silver;
+            
+                font-size: 60px;
+                color: silver;
+                position: relative;
+                left: 55vw;
         }
         .advertisement{
             width: 23vw;
             height: 70vh;
             text-align: center;
-            border: 1px solid black;
+            
         }
         .advertisement > img{
             width: 23vw;
@@ -449,8 +459,3 @@
         }
     
     }
-
-
-
-
-   

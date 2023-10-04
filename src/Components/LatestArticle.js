@@ -54,9 +54,9 @@ const LatestArticle = () => {
        </div>
 
         <div className="topStories__right">
-            <div className="advertisement">
+            {/* <div className="advertisement">
                        <img src='https://cdn.dribbble.com/users/5297140/screenshots/13995477/media/3769cfb75e2e53734862cc0a3bc1c732.gif' alt='gifs'/>
-                                             </div>
+                                             </div> */}
                     <div>                    <h1 className="content__title topPost">Top Posts</h1>
                         
                     {
